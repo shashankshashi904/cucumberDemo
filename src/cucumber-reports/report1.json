@@ -1,0 +1,282 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-23T10:14:21.578Z",
+        "line": 3,
+        "name": "Expression Test",
+        "description": "",
+        "id": "cucumber-expression-demo;expression-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3024706,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "John has 1 cucumber in his bag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 0
+                },
+                {
+                  "val": "1",
+                  "offset": 9
+                }
+              ],
+              "location": "CucumberExpressionDemoFeature.john_has_cucumber_in_his_bag(String,Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4556593,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Sara has 5 cucumbers in her bag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sara",
+                  "offset": 0
+                },
+                {
+                  "val": "5",
+                  "offset": 9
+                }
+              ],
+              "location": "CucumberExpressionDemoFeature.john_has_cucumber_in_his_bag(String,Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1787373,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Ram has 3 cucumbers in his bag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ram",
+                  "offset": 0
+                },
+                {
+                  "val": "3",
+                  "offset": 8
+                }
+              ],
+              "location": "CucumberExpressionDemoFeature.john_has_cucumber_in_his_bag(String,Integer)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@nonui"
+          }
+        ]
+      }
+    ],
+    "name": "Cucumber Expression Demo",
+    "description": "",
+    "id": "cucumber-expression-demo",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/cucumberexpressiondemo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-23T10:14:21.613Z",
+        "line": 12,
+        "name": "Valid Login User",
+        "description": "",
+        "id": "login-feature;valid-login-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26746476789,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The URl of demo web shop application",
+            "match": {
+              "location": "LoginFeatureDefinitoin.the_URl_of_demo_web_shop_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 487354992,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters kannan1@gmail.com as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kannan1@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginFeatureDefinitoin.user_enters_kannan_gmail_com_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220427767,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters test1234 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginFeatureDefinitoin.user_enters_password_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5335831304,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginFeatureDefinitoin.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2520300847,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user login successfully",
+            "match": {
+              "location": "LoginFeatureDefinitoin.the_user_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-23T10:14:56.948Z",
+        "line": 13,
+        "name": "Valid Login User",
+        "description": "",
+        "id": "login-feature;valid-login-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16377006168,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The URl of demo web shop application",
+            "match": {
+              "location": "LoginFeatureDefinitoin.the_URl_of_demo_web_shop_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192164448,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters kannan2@gmail.com as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kannan2@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginFeatureDefinitoin.user_enters_kannan_gmail_com_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148470708,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters test1234 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginFeatureDefinitoin.user_enters_password_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11158119542,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginFeatureDefinitoin.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4917048310,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user login successfully",
+            "match": {
+              "location": "LoginFeatureDefinitoin.the_user_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/login.feature",
+    "tags": []
+  }
+]
